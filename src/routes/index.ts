@@ -5,5 +5,5 @@ type RouteType = {
 };
 export const routes: RouteType[] = [
     { path: '/info/:id', component: Page.InfoPage },
-    { path: '/login', component: Page.LoginPage },
+    { path: '/', component: Page.LoginPage },
 ];
