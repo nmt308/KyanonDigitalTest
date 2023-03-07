@@ -51,11 +51,17 @@
         border-radius: 8px;
         padding: 10px 12px;
         line-height: 14px;
+        transition: all 0.2s linear;
         input {
             width: 100%;
             &:focus {
                 outline: none;
             }
+        }
+
+        &:focus-within {
+            transition: all 0.2s linear;
+            border-color: $primary-color;
         }
     }
     &-label {
@@ -95,6 +101,8 @@
     cursor: pointer;
     font-size: 12px;
     font-weight: 600;
+    opacity: 1;
+    transition: 0.1s ease-in;
     &-login {
         background-color: $primary-color;
         color: #fff;
@@ -107,5 +115,8 @@
     &-cancel {
         background-color: #f6f4ff;
         color: $primary-color;
+    }
+    &:hover {
+        opacity: 0.5;
     }
 }

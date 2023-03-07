@@ -38,7 +38,7 @@ export default function InfoPage() {
             });
     };
     const handleCancel = () => {
-        navigate('/login');
+        navigate('/');
     };
     let { id } = useParams();
     useEffect(() => {
