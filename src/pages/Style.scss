@@ -1,0 +1,111 @@
+@import '../App.scss';
+.container {
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 18px;
+}
+.form {
+    background-color: #fff;
+    border-radius: 18px;
+    padding: 20px;
+    min-height: 70vh;
+    width: 400px;
+    display: flex;
+    align-items: center;
+
+    &-notify {
+        display: flex;
+        justify-content: space-between;
+        background-color: #cccccc4f;
+        padding: 8px 12px;
+        border-radius: 8px;
+        margin-bottom: 8px;
+        button {
+            color: $primary-color;
+            cursor: pointer;
+        }
+    }
+    &-body {
+        width: 100%;
+    }
+
+    &-title-login {
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 18px;
+    }
+    &-title-info {
+        font-weight: 500;
+        text-align: left;
+        margin-bottom: 42px;
+    }
+
+    &-group {
+        margin-bottom: 14px;
+    }
+    &-input {
+        border: 2px solid #6e6d6d4d;
+        border-radius: 8px;
+        padding: 10px 12px;
+        line-height: 14px;
+        input {
+            width: 100%;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+    &-label {
+        font-weight: 500;
+        margin-bottom: 6px;
+    }
+    &-footer {
+        display: flex;
+        .btn + .btn {
+            margin-left: 16px;
+        }
+        &.login {
+            align-items: center;
+            justify-content: space-between;
+        }
+        &.info {
+            margin-top: 32px;
+            justify-content: flex-end;
+        }
+    }
+
+    &-show {
+        display: flex;
+        input {
+            accent-color: $primary-color;
+        }
+        p {
+            font-weight: 500;
+            margin-left: 12px;
+            margin-bottom: 2px;
+        }
+    }
+}
+.btn {
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    &-login {
+        background-color: $primary-color;
+        color: #fff;
+        padding: 8px 36px;
+    }
+    &-update {
+        background-color: $primary-color;
+        color: #fff;
+    }
+    &-cancel {
+        background-color: #f6f4ff;
+        color: $primary-color;
+    }
+}

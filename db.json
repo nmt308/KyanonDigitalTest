@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "email": "user@gmail.com",
+      "fullName": "Minh Thành 456",
+      "birth": "30-08-2001",
+      "phone": "0906789992",
+      "password": "123456",
+      "id": 1
+    }
+  ]
+}
