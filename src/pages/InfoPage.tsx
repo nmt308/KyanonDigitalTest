@@ -75,6 +75,7 @@ export default function InfoPage() {
                         }}
                     />
                     <Input
+                        type="date"
                         value={birth}
                         label="Date Of Birth"
                         labelColor="#BABCC0"
@@ -91,11 +92,13 @@ export default function InfoPage() {
                         }}
                     />
                     <Input
-                        type="number"
                         value={phone}
                         label="Phone"
                         labelColor="#BABCC0"
                         onChange={(e) => {
+                            if (typeof e.target.value === 'string') {
+                                return;
+                            }
                             setPhone(e.target.value);
                         }}
                     />
