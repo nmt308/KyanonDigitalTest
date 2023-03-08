@@ -1,6 +1,6 @@
 HOW TO RUN
 
-1. To launch this project after clone, you must use the command npm init to build packages
+1. To launch this project after clone repo, you must use the command npm i to build packages
 2. Type npm run server to start the server, after that open new terminal and type npm start to run the project
 
 DATA DEMO
@@ -16,5 +16,6 @@ Login Page
 
 Profile Page
 
-![image](https://user-images.githubusercontent.com/91748322/223453313-dec4e29f-95de-4376-9cd1-3d3e2fa26e12.png)
+![image](https://user-images.githubusercontent.com/91748322/223717118-e8169163-fe31-43cf-b6b6-643117141392.png)
+
 
